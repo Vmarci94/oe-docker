@@ -1,0 +1,16 @@
+Kintről felmountol egy binárist amit elindít.
+	Feltételhez van kötve az indítás, méghozzá az hogy egy adott mappában megvannak a fájlok.
+	
+Van 3 darab image, mindegyiknek ugyan az az input és az output mappa, de nem egyszerre futnak, hanem egymás után.
+Azonos helyről olvasnak és azonos helyre írnak.
+Be kell várniuk egymás futásának eredményét. Ezek a conténerek elindulnak és le is állnak. (nem szolgáltatások).
+
+Nem fix az hogy 3db van. Akármennyi lehet.
+(sleep, cat is elég kiindulási alapnak)
+Mintapélda úgy hogy működjön
+Linux konténer
+
+Windows-on is megfutathatja a compose-t. (User kezelés)
+jó lenne ha azzal a user-rel hajtódna végre, mint amivel elindította a konténert.
+
+A feltétel 
