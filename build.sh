@@ -3,6 +3,6 @@
 rm -rf ./target
 mkdir ./target
 javac -d ./target ./hu/oe/Main.java
-cd ./target
+pushd ./target
 jar cfe ./Main.jar hu.oe.Main ./hu/oe/Main.class
-cd ..
+popd

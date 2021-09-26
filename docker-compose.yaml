@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  oe:
+    image: oe:latest
+    volumes:
+    - ./resource:/workdir/resource
+    - ./target:/workdir/app
+    env_file: compose.env
+#    command: ls -la /workdir/app
