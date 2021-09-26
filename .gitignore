@@ -351,3 +351,6 @@ MigrationBackup/
 
 Workspace.code-workspace
 target
+
+.idea
+oe-docker.iml
